@@ -419,6 +419,7 @@ a:hover {
 .Package-Summery {
     width: 1440px;
    margin: 40px auto;
+   padding:  30px;
 }
 
 .Package-Summery h1{
@@ -431,12 +432,14 @@ a:hover {
 }
 
 .p-and-of {
+    width: 1440px;;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .Package-Highlights {
-    width: 538px;
+    width: 600px;
     height: 50px;
     background: #0A223D;
     border-radius: 4px 4px 0px 0px;
@@ -449,10 +452,52 @@ a:hover {
 }
 
 .Package-Highlights-text {
-    width: 538px;
+    width: 600px;
+    background-color: white;
+    padding: 25px;
+    position: relative;
+    display: flex;
+}
+
+.Package-Highlights-text-left {
+   margin-right: 50px;
+}
+
+.pointPlusText {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+
+.Offer-Details-head {
+    width: 600px;
+    height: 50px;
+    background: #0A223D;
+    border-radius: 4px 4px 0px 0px;
+    padding: 16px 24px;
+    color: white;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.Offer-Details-text {
+    width: 600px;
     height: 200px;
     background-color: white;
+    padding: 25px;
+    display: flex;
 }
+
+.Offer-Details-left {
+    width: 50%;
+}
+
+.Offer-Details-right {
+    display: flex;
+}
+
 
 
 /* ==================================Other_Packages Section====================================*/
